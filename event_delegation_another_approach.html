@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Delegation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button>Make a Pet</button>
+<p>Click an animal to remove.</p>
+<ul>
+    <li class="original">tiger</li>
+    <li class="original">lion</li>
+    <li class="original">fox</li>
+</ul>
+
+<script src="jquery-3.1.1.min.js.css" rel="script"></script>
+<script type="text/javascript">
+    $(function () {
+
+        // Remove callback function
+        // case-sensitive
+        $('ul').on('click', 'li', function (event) {
+            this.remove();
+        });
+        
+        // Add animal callback function
+        $('button').click(function (event) {
+            $('ul').append(
+                "<li>" +
+                // logic for random name
+                    ["cat", "dog", "bird"][Math.floor(Math.random()*3)]
+                + "</li>"
+            );
+        });
+    });
+</script>
+</body>
+</html>

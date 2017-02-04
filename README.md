@@ -10,3 +10,4 @@ Here is I practice to clear some jquery basic concepts i.e
 * ``StopPropagation``
 * ``Self-referentiality``
 * ``Event delegation``
+* ``Event delegation on Parent Element (Another Approach)``

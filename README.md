@@ -9,3 +9,4 @@ Here is I practice to clear some jquery basic concepts i.e
 * ``Current Target event``
 * ``StopPropagation``
 * ``Self-referentiality``
+* ``Event delegation``

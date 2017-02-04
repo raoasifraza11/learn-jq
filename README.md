@@ -7,3 +7,4 @@ Here is I practice to clear some jquery basic concepts i.e
 * ``Keydown``
 * ``Mousedown``
 * ``Current Target event``
+* ``StopPropagation``

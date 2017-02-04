@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click Handler</title>
+
+</head>
+<body>
+<h3><span class="js-click-counter">0</span> Clicks</h3>
+<button class="js-clicker">Click me</button>
+
+<script src="jquery-3.1.1.min.js.css" rel="script"></script>
+<script type="text/javascript">
+    function handleClicks() {
+
+        // variable
+        var clickcount = 0;
+
+
+
+        // select click counter class
+        $('.js-click-counter').text(clickcount);
+
+
+        $('.js-clicker').click(function (event) {
+
+            console.log("Button Clicked!");
+            clickcount += 1;
+
+            // update text
+            $('.js-click-counter').text(clickcount);
+        });
+    }
+
+    $(handleClicks);
+</script>
+</body>
+</html>

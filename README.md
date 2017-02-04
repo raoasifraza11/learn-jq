@@ -1,6 +1,6 @@
 # Learn Jquery
 Here is I practice to clear some jquery basic concepts i.e 
-* ``function``
+* ``Function``
 * ``Callback function``
 * ``Clouser function``
 * ``Event handler``
@@ -8,3 +8,4 @@ Here is I practice to clear some jquery basic concepts i.e
 * ``Mousedown``
 * ``Current Target event``
 * ``StopPropagation``
+* ``Self-referentiality``

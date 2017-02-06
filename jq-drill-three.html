@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <div class="lightbulb js-lightbulb">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/lightbulb.svg" alt="Kiwi standing on oval">
+    </div>
+    <div class="lightbulb js-lightbulb">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/lightbulb.svg" alt="Kiwi standing on oval">
+    </div>
+</div>
+<div class="lightbulb js-lightbulb">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/lightbulb.svg" alt="Kiwi standing on oval">
+</div>
+<div class="lightbulb js-lightbulb">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-65/lightbulb.svg" alt="Kiwi standing on oval">
+</div>
+</div>
+
+
+
+
+<script src="jquery-3.1.1.min.js.css" rel="script"></script>
+<!-- Drill Script -->
+<script>
+    function handleBulbClicks() {
+        $('.lightbulb').click(function(event){
+            $('.lightbulb').removeClass('bulb-on');
+            $(event.currentTarget).addClass('bulb-on')
+        });
+    }
+
+    $(function() {
+        handleBulbClicks();
+    });
+</script>
+</body>
+</html>

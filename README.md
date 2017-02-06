@@ -12,3 +12,4 @@ Here is I practice to clear some jquery basic concepts i.e
 * ``Event delegation``
 * ``Event delegation on Parent Element (Another Approach)``
 * ``Drill 01 - Image Carousel``
+* ``Drill 02 - FizzBuzz game``
